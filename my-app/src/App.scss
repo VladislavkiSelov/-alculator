@@ -1,0 +1,126 @@
+.box_calculator {
+  border-radius: 25px;
+  margin: 20px auto;
+  width: 400px;
+  background: linear-gradient(222deg, rgb(66, 73, 124) 35%, rgb(26, 30, 90) 84%);
+  box-shadow: rgb(31, 29, 29) 7px 54px 118px 0px;
+  padding: 0px 29px 20px;
+}
+
+.screen {
+  height: 50px;
+}
+
+.box_actions {
+  height: 150px;
+
+}
+
+.box_buttons {
+  height: 500px;
+}
+
+.box_btn_number {
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+
+  input {
+    display: flex;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 40px;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    background-image: none;
+    opacity: 1;
+  }
+}
+
+.block1 {
+
+  .box_symbols_top {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  input {
+    display: flex;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 40px;
+    border: none;
+    border-radius: 50%;
+    padding: 7px;
+    width: 85px;
+    height: 85px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    color: rgb(251, 21, 93);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    opacity: 1;
+  }
+}
+
+.block2 {
+  display: flex;
+
+  .block_symbols_right {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-left: 11px;
+
+    input {
+      display: flex;
+      -webkit-box-pack: center;
+      place-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      font-size: 40px;
+      border: none;
+      border-radius: 50%;
+      padding: 7px;
+      width: 85px;
+      height: 85px;
+      margin-bottom: 10px;
+      margin-right: 0px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(246, 137, 102);
+      background-image: linear-gradient(rgb(246, 137, 102), rgb(253, 108, 27));
+      opacity: 1;
+    }
+  }
+}
+
+.box_actions {
+  color: white;
+  display: block;
+  font-size: 101px;
+  margin: 4px 0px 22px;
+  width: 100%;
+  height: auto;
+  min-height: 136px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  text-align: right;
+  animation: 0s ease 0s 1 normal none running none;
+}
